@@ -58,29 +58,25 @@ bool ParseCellReferences(CEsmCell* pCell, CGenFile& csvFile)
 }
 
 
-int main()
+bool ExportItemUses(const char* pEsmFilename, const char* pCsvFilename)
 {
 	CEsmFile EsmFile;
 	CGenFile csvFile;
 
-	//FindMWRegistryPath();
-	//printf("Morrowind Installation Folder: %s\n", GetMWDataPath());
-	SetMWDataPath("D:\\Morrowind\\");
-
-	if (!csvFile.Open("mwitemuse.csv", "wb"))
+	if (!csvFile.Open(pCsvFilename, "wb"))
 	{
-		printf("Error: Failed to open CSV file for output!\n");
-		return 1;
+		printf("Error: Failed to open CSV file %s for output!\n", pCsvFilename);
+		return false;
 	}
 
 	csvFile.Printf("Reference, Cell Type, Cell Name, Count\n");
 
-	printf("Loading Morrowind.esm...\n");
+	printf("Loading %s...\n", pEsmFilename);
 
-	if (!EsmFile.Read("D:\\Morrowind\\Data Files\\Morrowind.esm"))
+	if (!EsmFile.Read(pEsmFilename))
 	{
-		printf("Error: Failed to load Morrowind.esm!\n");
-		return 1;
+		printf("Error: Failed to load %s!\n", pEsmFilename);
+		return false;
 	}
 
 	printf("Loaded Morrowind.esm with %d records!\n", EsmFile.GetNumRecords());
@@ -100,6 +96,26 @@ int main()
 		}
 	}
 
+	return true;
+}
+
+
+int main()
+{
+	
+
+	//FindMWRegistryPath();
+	//printf("Morrowind Installation Folder: %s\n", GetMWDataPath());
+	//SetMWDataPath("D:\\Morrowind\\");
+	SetMWDataPath("D:\\SteamLibrary\\steamapps\\common\\Morrowind\\Data Files\\");
+
+	ExportItemUses("D:\\SteamLibrary\\steamapps\\common\\Morrowind\\Data Files\\Morrowind.esm", "mwitemuse.csv");
+	ExportItemUses("D:\\SteamLibrary\\steamapps\\common\\Morrowind\\Data Files\\Bloodmoon.esm", "mw-tr-itemuse.csv");
+	ExportItemUses("D:\\SteamLibrary\\steamapps\\common\\Morrowind\\Data Files\\Tribunal.esm", "mw-bm-itemuse.csv");
+
+	
+
     return 0;
 }
+
 
