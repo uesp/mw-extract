@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Morrowind">
+      <UniqueIdentifier>{abdae7ac-37fa-4b30-ab9d-ba814ea5413c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{fd9ede35-6125-447d-9a68-5ac753a5a6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Morrowind">
+      <UniqueIdentifier>{1be4a52a-a8e3-4115-9d1c-832c6d9bf88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{14482283-f6fc-4d14-ab74-29b250cb50b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\File\CfgFile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\chunk3ds.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\csvfile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_base.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_block.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_chr.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_err.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_file.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_log.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\dl_map.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_math.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_mem.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_str.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_time.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\dxffile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\bmpfile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmActivator.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmAlchemy.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmApparatus.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmArmor.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmBirthSign.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmBodyPart.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmBook.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmCell.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmClass.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmClothing.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmContainer.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmCreature.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmDefs.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmDialogue.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmDoor.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmEnchant.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmFaction.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmFile.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmGameSetting.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmGlobal.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmInfo.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmIngrediant.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmItem1.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmItem2.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmItem3.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLand.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLevelCrea.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLevelItem.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLight.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLockPick.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmMagicEffect.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmMisc.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmNpc.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmProbe.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRace.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRecord.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRegion.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRepair.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmScript.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSkill.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSound.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSoundGen.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSpell.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmStartScript.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmStatic.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAADT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_A.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_E.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_F.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_T.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_W.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAIDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubALDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAMBI.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAODT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\ESMSubBase.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubBKDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubBYDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubByte.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCellDATA.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCellRef.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCLDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCNDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCRDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCTDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubDATA.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubENAM.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubENDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubFADT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubFloat.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubFRMR.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubHEDR.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubInfoDATA.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubIRDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLHDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLKDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLong.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLong64.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubMCDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubMEDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubName.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubName32.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubName512.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNameFix.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNPCO.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNPCS.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNPDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubPBDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubPos6.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubRADT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubRIDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSCHD.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSCVR.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubShort.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSKDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSNAM.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSPDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubWEAT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubWPDT.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmTES3.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmWeapon.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmWinUtils.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\file3ds.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\FileBuffer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\genfile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\genfind.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\GenStack.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IL\il.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IL\ilu.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\IL\ilut.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\listfile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Utility\namelist.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\ObjArray.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\pcx.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Memory\Pointer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Utility\profile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\ptrarray.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Images\rgbpal.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\String\SSArray.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\String\sstring.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\temarray.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Windows\winutil.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\mwcommon.h">
+      <Filter>Header Files\Morrowind</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\File\bmpfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\CfgFile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\csvfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_base.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_block.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_chr.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_err.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_file.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_log.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_math.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_mem.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_str.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_time.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\dxffile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmActivator.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmAlchemy.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmApparatus.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmArmor.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBase.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBirthSign.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBodyPart.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBook.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmCell.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmClass.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmClothing.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmContainer.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmCreature.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmDialogue.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmDoor.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmEnchant.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmFaction.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmFile.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmGameSetting.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmGlobal.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmInfo.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmIngrediant.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmItem1.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmItem2.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmItem3.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLand.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLevelCrea.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLevelItem.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLight.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLockPick.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmMagicEffect.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmMisc.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmNpc.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmProbe.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRace.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRecord.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRegion.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRepair.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmScript.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSkill.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSound.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSoundGen.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSpell.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmStartScript.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmStatic.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubBase.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubCellRef.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubName.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubSCVR.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmTES3.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmWeapon.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmWinUtils.cpp">
+      <Filter>Source Files\Morrowind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\file3ds.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\FileBuffer.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\genfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\genfind.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\GenStack.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\listfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\mwcommon.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utility\namelist.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\ObjArray.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\pcx.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utility\profile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\ptrarray.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Images\rgbpal.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\String\SSArray.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\String\SString.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\temarray.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\tstfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Windows\WinUtil.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MWExtract.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
